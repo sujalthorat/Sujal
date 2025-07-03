@@ -23,7 +23,7 @@ import DeveloperInfoPopup from "./Components/DevloperInfo/DeveloperInfoPopup";
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Sujal Amol Thorat"
-          studentPhotoUrl="Images/sujal.jpg" // Path to their photo
+          studentPhotoUrl="/Images/pradyumna.jpg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
