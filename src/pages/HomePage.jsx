@@ -8,14 +8,17 @@ const HomePage = () => {
       <Header />
       <div className="container">
         <div className="content">
-          <div className="img">
-            <h1 style={{ color: "Black" }}>Welcome to Vivekanand College!</h1>
+          <div className="hero-section">
+            <img alt="Vivekanand College Campus" className="hero-banner-image" src="/Images/college-banner.png"></img>
+            <div className="hero-overlay-text">
+            <h1>Welcome to Vivekanand College!</h1>
             <p>Your journey to excellence starts here.</p>
             <button>
               <Link to="/apply" className="noUnderline2">
                 Apply Now!
               </Link>
             </button>
+          </div>
           </div>
           <p>
             Vivekanand College is a premier educational institution dedicated to
